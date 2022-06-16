@@ -1,0 +1,5 @@
+﻿  test.cpp
+F:\code\CODE C\test\test\test.cpp(33,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+F:\code\CODE C\test\test\test.cpp(46,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\code\CODE C\test\test\test.cpp(28): warning C4715: 'inChuoiDaoNguoc': not all control paths return a value
+  test.vcxproj -> F:\code\CODE C\test\x64\Debug\test.exe

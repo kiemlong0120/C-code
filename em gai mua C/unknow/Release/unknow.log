@@ -1,0 +1,42 @@
+﻿Build started 10/05/2019 22:05:33.
+     1>Project "D:\code\unknow\unknow\unknow.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(18): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\visual\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>Source.cpp(80): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\visual\VC\include\stdio.h(290) : see declaration of 'scanf'
+     1>Source.cpp(82): warning C4129: ' ' : unrecognized character escape sequence
+     1>Source.cpp(84): warning C4129: ' ' : unrecognized character escape sequence
+     1>Source.cpp(85): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(86): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(87): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(88): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(89): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(90): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(91): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(92): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(93): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(94): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\visual\VC\include\conio.h(131) : see declaration of 'getch'
+       Link:
+         D:\visual\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\unknow\Release\unknow.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\unknow\Release\unknow.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\unknow\Release\unknow.lib" /MACHINE:X86 /SAFESEH Release\console.obj
+         Release\Source.obj
+         Generating code
+         Finished generating code
+         unknow.vcxproj -> D:\code\unknow\Release\unknow.exe
+     1>Done Building Project "D:\code\unknow\unknow\unknow.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19
